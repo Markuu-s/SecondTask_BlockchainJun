@@ -13,9 +13,9 @@ void Solution::isExist(const Data &data)
     table[data.name].additionalInf.push_back(data.additionalInf[0]);
 }
 
-void Solution::solve()
+void Solution::solve(std::string pathToInput)
 {
-    freopen("../txtFiles/input1.txt", "r", stdin);
+    freopen("pathToInput", "r", stdin);
     
     Data data;
     data.additionalInf.resize(1);
