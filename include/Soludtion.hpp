@@ -17,7 +17,7 @@ public:
     };
 
     std::map<std::string, Data> getInformation();
-    void solve();
+    void solve(std::string);
 
 private:
     std::map<std::string, Data> table;
