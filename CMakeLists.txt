@@ -9,6 +9,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_INCLUDE_DIRECTORIES_PROJECT_BEFORE ON)
 
 set(SRC_FILES unitTests/unitTests.cpp
+              src/Solution.cpp
                   main.cpp)
 
 include_directories(include)
