@@ -1,0 +1,3 @@
+Alexey 2800 7 19600 "xyz" "yxz" 
+Nikolai 1200 3 3600 "zyx" 
+Vasilii 1500 12 18000 "yxz" 

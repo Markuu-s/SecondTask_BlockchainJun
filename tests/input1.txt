@@ -1,0 +1,4 @@
+Alexey 1200 3 "xyz"
+Vasilii 1500 12 "yxz"
+Alexey 1600 4 "yxz"
+Nikolai 1200 3 "zyx"

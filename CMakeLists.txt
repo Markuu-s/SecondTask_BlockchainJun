@@ -8,12 +8,12 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_INCLUDE_DIRECTORIES_PROJECT_BEFORE ON)
 
-set(SRC_FILES unitTests/unitTests.cpp
+set(SRC_FILES 
               src/Solution.cpp
                   main.cpp)
 
 include_directories(include)
-include_directories(unitTest)
+#include_directories(unitTest)
 
 add_executable(${PROJECT_NAME} ${SRC_FILES})
-target_link_libraries(${PROJECT_NAME} cppunit)
+#target_link_libraries(${PROJECT_NAME} cppunit)
