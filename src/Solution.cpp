@@ -15,18 +15,21 @@ void Solution::isExist(const Data &data)
 
 void Solution::solve(std::string pathToInput)
 {
-    freopen("pathToInput", "r", stdin);
-    
+    freopen(pathToInput.data(), "r", stdin);
+
     Data data;
     data.additionalInf.resize(1);
-    std::cin >> data.name >> data.requestsHour >> data.countHour >> data.additionalInf[0];
+    while (std::cin >> data.name)
+    {
+        std::cin >> data.requestsHour >> data.countHour >> data.additionalInf[0];
 
-    if (table.find(data.name) == table.end())
-    {
-        table[data.name] = data;
-    }
-    else
-    {
-        isExist(data);
+        if (table.find(data.name) == table.end())
+        {
+            table[data.name] = data;
+        }
+        else
+        {
+            isExist(data);
+        }
     }
 }
